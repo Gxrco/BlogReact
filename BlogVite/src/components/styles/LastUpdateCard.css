@@ -1,0 +1,15 @@
+.cardPost {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    overflow: auto; /* Add this line */
+}
+
+.cardPost p {
+    word-wrap: break-word; /* Use this instead of text-wrap: wrap; */
+}
