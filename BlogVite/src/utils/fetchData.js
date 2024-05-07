@@ -1,4 +1,4 @@
-const URL = 'http://localhost:22281'
+const URL = 'https://api.tiburoncin.lat/22281'
 
 export async function getAllPosts () {
   try {
